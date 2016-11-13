@@ -4,7 +4,9 @@ import java.util.Date
 
 import org.scalatest.{FlatSpec, Matchers}
 
-class EventSpec extends FlatSpec with Matchers {
+class EventSpec
+  extends FlatSpec
+  with Matchers {
 
   //Date parsing
   val date = "2016-01-01T12:00:00.000"
